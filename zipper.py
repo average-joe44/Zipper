@@ -78,7 +78,7 @@ try:
         source_file = sys.argv[2]
         output_folder_name = sys.argv[3]
         unzip_file(source_file, output_folder_name)
-    elif not option in ('--multiple', '-mtp') or ('--onefolder', '-f'):
+    elif not option in ('--multiple', '-mtp', '--onefolder', '-f', '--help', '-h'):
         exit("Use '--multiple' or '-mtp' for files, or '--onefolder' and '-f' to make zip archive of a folder!")
 except KeyboardInterrupt:
     exit('Operation canceled by user!')
