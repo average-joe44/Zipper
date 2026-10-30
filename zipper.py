@@ -73,7 +73,7 @@ try:
     elif option in ('--help', '-h'):
         print("Usage: (--onefolder or -f) <source_folder_name> <output_zipped_folder_name>")
         print("Usage: (--multiple or -mtp) <file_names> -o <output_name.zip>")
-        print("Usage: (--unpack or -up) <zip_file> <output_name>")
+        print("Usage: (--unpack or -up) <zip_file.zip> <output_folder_name>")
     elif option in ('--unpack', '-up'):
         source_file = sys.argv[2]
         output_folder_name = sys.argv[3]
